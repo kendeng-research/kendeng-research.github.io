@@ -1,0 +1,29 @@
+/* Frame the original travel photo without altering the supplied image. */
+.author__avatar .portrait-crop {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.author__avatar .portrait-crop img {
+  position: absolute;
+  display: block;
+  width: 200%;
+  max-width: none;
+  min-width: 0;
+  height: auto;
+  left: -65.277778%;
+  top: -26.388889%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+@media (min-width: 57.8125em) {
+  .author__avatar .portrait-crop {
+    width: 175px;
+    height: 175px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 1px #f2f3f3;
+  }
+}

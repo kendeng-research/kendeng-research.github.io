@@ -1,0 +1,25 @@
+/* Preserve the original desktop template; make research figures readable on phones. */
+@media (max-width: 47.999em) {
+  .paper-box .paper-box-image {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+    padding: .5em 0 .8em;
+    text-align: center;
+  }
+  .paper-box .paper-box-image a {
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+  }
+  .paper-box .paper-box-image img {
+    display: block;
+    max-height: 240px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  .paper-box .paper-box-text {
+    order: 2;
+    max-width: 100%;
+  }
+}
